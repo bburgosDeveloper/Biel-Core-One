@@ -2,9 +2,371 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid fa78ecf2-5fee-4ef5-b563-93c8530b54ac)
+	(uuid "fa78ecf2-5fee-4ef5-b563-93c8530b54ac")
 	(paper "A4")
 	(lib_symbols)
+	(no_connect
+		(at 15.24 24.13)
+		(uuid "69487a9c-13d0-4952-94ef-65b1e12bc5ce")
+	)
+	(no_connect
+		(at 67.31 15.24)
+		(uuid "f98e7864-f066-4a2c-a197-c111b8d6dd99")
+	)
+	(wire
+		(pts
+			(xy 105.41 19.05) (xy 111.76 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6c2aa4-1cf4-4c84-b95f-82293a2242e0")
+	)
+	(wire
+		(pts
+			(xy 105.41 24.13) (xy 111.76 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2094471d-08db-4c37-87a4-a2a2db0c426e")
+	)
+	(wire
+		(pts
+			(xy 105.41 26.67) (xy 111.76 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3372726e-1a2b-4328-a9ca-67d9251dd853")
+	)
+	(wire
+		(pts
+			(xy 105.41 21.59) (xy 111.76 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8915a17d-4c50-4987-bd49-677141001fdb")
+	)
+	(wire
+		(pts
+			(xy 105.41 29.21) (xy 111.76 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca5384f-c914-4244-bbfa-0d03a89d7564")
+	)
+	(sheet
+		(at 55.88 15.24)
+		(size 49.53 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "143e3f05-435b-4be1-9c3e-90cd995d79b9")
+		(property "Sheetname" "Procesador"
+			(at 55.88 14.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "procesador.kicad_sch"
+			(at 55.88 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SYS_5V" input
+			(at 67.31 15.24 90)
+			(uuid "f1c06731-b262-4a9f-adda-7749a7917f85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISP_CS" output
+			(at 105.41 24.13 0)
+			(uuid "ba991d1d-602f-460d-a6f8-251ae69d06d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISP_DC" output
+			(at 105.41 26.67 0)
+			(uuid "84fa2c0a-f9ad-493e-b76e-c4d778cf87fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISP_RES" output
+			(at 105.41 21.59 0)
+			(uuid "06316f75-b886-4f76-ae73-3f938a7f4eeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISP_SCL" output
+			(at 105.41 19.05 0)
+			(uuid "bf614cf8-d44f-4fdc-a021-39de25bbaa9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISP_SDA" output
+			(at 105.41 29.21 0)
+			(uuid "ca14f131-34b2-468b-8f84-e29f04bb4836")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Biel_Core_One"
+				(path "/fa78ecf2-5fee-4ef5-b563-93c8530b54ac"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 13.97)
+		(size 46.99 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "57b81f76-9728-4f3a-9457-19eafb1f973b")
+		(property "Sheetname" "pantalla"
+			(at 111.76 13.2584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pantalla.kicad_sch"
+			(at 111.76 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DISP_CS" input
+			(at 111.76 24.13 180)
+			(uuid "ef78d7bb-5fcc-4ce9-82ad-ec42c2f39dee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISP_DC" input
+			(at 111.76 26.67 180)
+			(uuid "7cc5fe2f-133b-42af-bbcc-e7dc6e9a756e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISP_RES" input
+			(at 111.76 21.59 180)
+			(uuid "db678e30-deb0-4fa5-a02a-6d383efd6265")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISP_SCL" input
+			(at 111.76 19.05 180)
+			(uuid "9ed8edac-a61c-4648-9b22-2d31f93e2265")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISP_SDA" input
+			(at 111.76 29.21 180)
+			(uuid "e88f13fa-4dd2-44ae-8d79-0c1ae78e25f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Biel_Core_One"
+				(path "/fa78ecf2-5fee-4ef5-b563-93c8530b54ac"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 15.24)
+		(size 36.83 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5eca9198-072e-42bd-ab42-b3de3250a4e9")
+		(property "Sheetname" "Alimentacion"
+			(at 15.24 14.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentacion.kicad_sch"
+			(at 15.24 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SYS_5V" input
+			(at 15.24 24.13 180)
+			(uuid "e32c4fd9-a894-4c09-85da-ba91c324fcf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Biel_Core_One"
+				(path "/fa78ecf2-5fee-4ef5-b563-93c8530b54ac"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 62.23)
+		(size 40.64 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ebe70e9d-397d-4b5c-9890-7385bfd1d390")
+		(property "Sheetname" "Controles"
+			(at 203.2 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controles.kicad_sch"
+			(at 203.2 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Biel_Core_One"
+				(path "/fa78ecf2-5fee-4ef5-b563-93c8530b54ac"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
